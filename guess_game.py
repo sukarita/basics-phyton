@@ -6,7 +6,7 @@ name = input()  #save the name in a variable
 
 print("Well, " + name + ", I'm thinking of a number between 1 and 20.")
 secretNumber = random.randint(1, 20) #including 20
-
+	
 #Loop up to certain number of times
 for guessesTaken in range(1, 7):  #excluding 7
     print("Take a guess")
